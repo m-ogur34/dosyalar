@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="dosyalar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/accounting-ui.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ysv-services-soap-client-fb70f8c1ee66e02eabb4e4df34ef7bc525c164de (1).jar!/" />
+      <root url="jar://$PROJECT_DIR$/allianz.zip!/" />
+      <root url="jar://$PROJECT_DIR$/accounting-services.zip!/" />
+      <root url="jar://$PROJECT_DIR$/accounting-ui-backend.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,1143 @@
+Date: Wed, 4 Nov 2026 13:44:45 +0300 (TRT)
+Message-ID: <2041563350.329.1793789085168@prd-lx-cnfl.allianz-tr.local>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_328_107664131.1793789085165"
+
+------=_Part_328_107664131.1793789085165
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>=C3=96deme Havuzu Kay=C4=B1t Ekleme</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        font-size: 10pt;
+        line-height: 1.2;
+    }
+
+    body,
+    #full-height-container,
+    #main,
+    #page,
+    #content,
+    .has-personal-sidebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a,
+    a:link,
+    a:visited,
+    a:focus,
+    a:hover,
+    a:active {
+        color: var(--ds-link-pressed, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        font-family: Arial, Helvetica, FreeSans, sans-serif;
+        page-break-after: avoid;
+    }
+
+    pre {
+        font-family: Monaco, 'Courier New', monospace;
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0;
+    }
+
+    .no-print,
+    .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>=C3=96deme Havuzu Kay=C4=B1t Ekleme</h1>
+    <div class=3D"Section1">
+        <h3 id=3D"id-=C3=96demeHavuzuKay=C4=B1tEkleme-Ama=C3=A7"><strong>Am=
+a=C3=A7</strong></h3>
+<p>Bu servis ile;</p>
+<ul>
+ <li data-uuid=3D"2441f46a-57bb-436b-b46d-cb23a22a38f6">=C5=9Eirket d=C4=B1=
+=C5=9F=C4=B1na yap=C4=B1lacak Havale/Eft =C3=B6deme talimatlar=C4=B1n=C4=B1=
+ i=C3=A7erir</li>
+</ul>
+<h3 id=3D"id-=C3=96demeHavuzuKay=C4=B1tEkleme-Parametreler"><strong>Paramet=
+reler</strong></h3>
+<div class=3D"table-wrap">
+ <table class=3D"relative-table wrapped confluenceTable" style=3D"width: 79=
+.2884%;">
+  <colgroup>
+   <col style=3D"width: 27.6353%;">
+   <col style=3D"width: 11.5682%;">
+   <col style=3D"width: 14.4603%;">
+   <col style=3D"width: 0.48201%;">
+   <col style=3D"width: 12.8536%;">
+   <col style=3D"width: 18.4771%;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>Parameter Name</strong></p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>IN/OUT</strong></p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>Type</strong></p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>Validation</strong></p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>Required</strong></p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>Comments</strong></p>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">requestDate</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Date</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">=C3=96deme tarihi, Bo=C5=9F ise g=C3=BCn=C3=
+=BCn tarihi olarka ayarlan=C4=B1r</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">sourceCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">Maksimum 15 karakter</td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">Hangi ekrandan olu=C5=9Fturuldu=C4=9Fu</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">paymentIdentifier</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">=C3=96demelerin tekrarlamamas=C4=B1 i=C3=A7i=
+n =C3=B6deme kimli=C4=9Fi</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">paymentAmount</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">BigDecimal</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">D=C3=B6viz Tutar=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">swiftCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">D=C3=B6viz cinsi</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">currencyExchangeRate</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">BigDecimal</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Kur bilgisi</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">descriptionText</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">A=C3=A7=C4=B1klama</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">branchCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Integer</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">Bran=C5=9F kodu</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">paymentCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Integer</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">=C3=96deme kodu</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingIdType</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">T (TC Kimlik No), Y(Yabanc=C4=B1 Kimlik No),=
+ V(Vergi Kimlik No)</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingTcknYknVkn</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">Kimlik numaras=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingNameSurname</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">Ad=C4=B1 soyad=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingIban</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hesap bilgisi bo=C5=9F ise zorunlu</td>
+    <td class=3D"confluenceTd">=C4=B0ban</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingBankCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Integer</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">IBAN bo=C5=9F ise zorunlu</td>
+    <td class=3D"confluenceTd">Al=C4=B1c=C4=B1 hesap banka kodu</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingSubsidiaryCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Integer</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">IBAN bo=C5=9F ise zorunlu</td>
+    <td class=3D"confluenceTd">Al=C4=B1c=C4=B1 hesap =C5=9Fube kodu</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingAccountNo</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">IBAN bo=C5=9F ise zorunlu</td>
+    <td class=3D"confluenceTd">Al=C4=B1c=C4=B1 hesap no</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingSwiftCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">D=C3=B6vizli ise zorunlu</td>
+    <td class=3D"confluenceTd">Al=C4=B1c=C4=B1 hesap siwft code</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingSortCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">receivingAddress</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">transferCostOwnerCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">email</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">
+     <p>staffInd</p>
+    </td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">userId</td>
+    <td class=3D"confluenceTd">In</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">Talep eden kullan=C4=B1c=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">instituteCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">firmCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">paymentGroupCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">contractId</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Ask=C4=B1 numaras=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">versionNum</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Versiyon numaras=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">familyCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Kendi =C3=B6derli poli=C3=A7elerdeki aile nu=
+maras=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">policyRef</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Poli=C3=A7e numaras=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">creditAmount</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">BigDecimal</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">sourceId</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">postingAccountNo</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">=C3=96deme yap=C4=B1ld=C4=B1=C4=9F=C4=B1nda&=
+nbsp; muhasebe yap=C4=B1laca=C4=9F=C4=B1 muhasebe hesap kodu.</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">invoiceNo</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Paran=C4=B1n geldi=C4=9Fi belge numaras=C4=
+=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">invoiceDate</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">LocalDate</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Paran=C4=B1n geldi=C4=9Fi g=C3=BCn</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">addOrderNo</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">add_order_no of claim file</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">extReference</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Hasar Dosya no</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">claimId</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Hasar dosya id</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">subFileNo</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Hasar alt dosya no</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">supplierId</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Long</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Anla=C5=9Fmal=C4=B1 kurum id</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">partajCode</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Partaj numaras=C4=B1</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">paymentRefId</td>
+    <td class=3D"confluenceTd">OUT</td>
+    <td class=3D"confluenceTd">String</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">=C3=96deme referans no</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">paymentDate</td>
+    <td class=3D"confluenceTd">OUT</td>
+    <td class=3D"confluenceTd">LocalDate</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">=C3=96deme Tarihi</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">paymentOrderNum</td>
+    <td class=3D"confluenceTd">OUT</td>
+    <td class=3D"confluenceTd">Integer</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">=C3=96deme s=C4=B1ra no</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<p><strong>Servis Eri=C5=9Fim Bilgisi</strong></p>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col style=3D"width: 80.0px;">
+   <col style=3D"width: 449.0px;">
+  </colgroup>
+  <tbody>
+   <tr>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>Service</strong></p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p><strong>Description</strong></p>
+    </td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p>Method</p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p>POST</p>
+    </td>
+   </tr>
+   <tr>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p>URL</p>
+    </td>
+    <td style=3D"text-align: left;" class=3D"confluenceTd">
+     <p>$API_URL/payment-pools/create</p>
+    </td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<p><strong>Validasyonlar:</strong></p>
+<p>PaymentPoolService servisinde createPaymentPool methodunda yap=C4=B1lan =
+validasyonlar =C5=9Funlard=C4=B1r:</p>
+<p>createPaymentPool ba=C5=9F=C4=B1nda requestDate bo=C5=9Fsa bug=C3=BCn=C3=
+=BCn tarihi atan=C4=B1r.</p>
+<p><strong>validateApiRequest i=C3=A7inde:</strong></p>
+<ul>
+ <li data-uuid=3D"94e3eff8-dd51-4ac4-b8c1-2831b74a2984">receivingIban veya =
+(receivingBankCode + receivingSubsidiaryCode + receivingAccountNo) zorunlud=
+ur.</li>
+ <li data-uuid=3D"cbf37880-e004-442c-9d20-5ea4cbaa2952">swiftCode TL de=C4=
+=9Filse receivingSwiftCode zorunludur.</li>
+</ul>
+<p>
+ <br>
+ <strong>checkDuplicatePaymentPool i=C3=A7inde:</strong>
+</p>
+<ul>
+ <li data-uuid=3D"54022a73-803b-45ff-9cfe-9576521639d0">paymentIdentifier d=
+oluysa, ayn=C4=B1 sourceCode + paymentIdentifier i=C3=A7in blocking stat=C3=
+=BClerde kay=C4=B1t varsa hata verilir.</li>
+</ul>
+<p><strong>validateSave i=C3=A7inde:</strong></p>
+<ul>
+ <li data-uuid=3D"11771b91-f64b-40a9-a4ca-2b667cadd436">=C3=96deme tarihi g=
+e=C3=A7mi=C5=9Fte olamaz.</li>
+ <li data-uuid=3D"c1df12ab-c649-4085-8e98-53a579cece66">=C3=96deme tarihi b=
+ug=C3=BCnse cutoff kontrol=C3=BC yap=C4=B1l=C4=B1r, gerekirse ileri i=C5=9F=
+ g=C3=BCn=C3=BCne al=C4=B1n=C4=B1r.</li>
+ <li data-uuid=3D"421a9fce-f607-4c8c-bc3f-b7eb15afb432">=C3=96deme tarihi b=
+ug=C3=BCn de=C4=9Filse i=C5=9F g=C3=BCn=C3=BC normalize edilir.</li>
+ <li data-uuid=3D"2e99d5f4-afd3-4cbf-8f5a-0617826561b8">=C3=96deme kodu (pa=
+ymentCode) s=C4=B1f=C4=B1rdan b=C3=BCy=C3=BCk olmal=C4=B1d=C4=B1r.</li>
+ <li data-uuid=3D"c0251620-a03c-46a3-9877-6268e1363a23">Bran=C5=9F kodu (br=
+anchCode) s=C4=B1f=C4=B1rdan b=C3=BCy=C3=BCk olmal=C4=B1d=C4=B1r.</li>
+ <li data-uuid=3D"78f26cfd-ceb7-4a8b-acc1-069738ec6cd1">D=C3=B6viz kodu (sw=
+iftCode) bo=C5=9F olamaz.</li>
+ <li data-uuid=3D"fe9a461f-75d5-43aa-b90e-db80d15d3f78">D=C3=B6viz kodu ge=
+=C3=A7erli d=C3=B6viz kodlar=C4=B1 listesinde olmal=C4=B1d=C4=B1r.</li>
+ <li data-uuid=3D"ad756938-a167-4def-8324-51731cc0c088">D=C3=B6viz kodu eng=
+elli swift listesinde olmamal=C4=B1d=C4=B1r.</li>
+ <li data-uuid=3D"b35c6024-6d16-46d6-84e9-1831075b9fc7">PAYMENT_AMOUNT vali=
+dasyonu aktifse =C3=B6deme tutar=C4=B1 bo=C5=9F olamaz ve 0=E2=80=99dan b=
+=C3=BCy=C3=BCk olmal=C4=B1d=C4=B1r.</li>
+ <li data-uuid=3D"0dd70bbb-3b72-4cf5-a19f-8fb908797b48">Al=C4=B1c=C4=B1 ver=
+gi/kimlik no bo=C5=9F olamaz ve en az 10 karakter olmal=C4=B1d=C4=B1r.</li>
+ <li data-uuid=3D"24e8ac66-88b2-45b2-adaa-0ff78e37f591">RECEIVING_NAME_SURN=
+AME validasyonu aktifse al=C4=B1c=C4=B1 ad/unvan bo=C5=9F olamaz.</li>
+ <li data-uuid=3D"33c4496b-a43d-445c-a3db-29fb0e7e588f">Al=C4=B1c=C4=B1 IBA=
+N ve hesap no ayn=C4=B1 anda bo=C5=9F olamaz.</li>
+ <li data-uuid=3D"9c7ef281-9f99-4b2a-b7e0-4807bd51f651">=C4=B0=C5=9Flemi ya=
+pan kullan=C4=B1c=C4=B1 kodu (creatingUserid) bo=C5=9F olamaz.</li>
+ <li data-uuid=3D"d12ac6d9-5030-47a4-9235-900a8e6a44eb">SENDING_BANK_CODE v=
+alidasyonu aktifse g=C3=B6nderici IBAN bo=C5=9F olamaz.</li>
+ <li data-uuid=3D"8c1ef5ee-6a0d-479c-a922-41cf7955d74f">Al=C4=B1c=C4=B1 IBA=
+N doluysa ge=C3=A7erli IBAN format=C4=B1nda olmal=C4=B1d=C4=B1r.</li>
+ <li data-uuid=3D"eddefdbe-3ca2-4fc7-bd7b-d2041dc44993">G=C3=B6nderici IBAN=
+ doluysa ge=C3=A7erli IBAN format=C4=B1nda olmal=C4=B1d=C4=B1r.</li>
+</ul>
+<p><strong>validateSave sonras=C4=B1, createPaymentPool ak=C4=B1=C5=9F=C4=
+=B1ndaki ek kontrol/i=C5=9F kurallar=C4=B1:</strong></p>
+<ul>
+ <li data-uuid=3D"fe009616-dca6-4455-a321-89cc5396feeb">Blacklist kontrol=
+=C3=BC yap=C4=B1l=C4=B1r:</li>
+ <li data-uuid=3D"54109a7b-b94f-416f-bd8b-1958d4f7d480">DOLANDIRICILIK vars=
+a blacklistStatus=3D2, durum ODENECEK ise BEKLEME yap=C4=B1l=C4=B1r.</li>
+ <li data-uuid=3D"2755c232-db1d-471c-8a29-6812146b96d1">KHK_OHAL varsa blac=
+klistStatus=3D1, durum ODENECEK ise BEKLEME yap=C4=B1l=C4=B1r.</li>
+ <li data-uuid=3D"fea75ff4-8c21-48b9-bacb-709b9762f4f2">TR IBAN varsa al=C4=
+=B1c=C4=B1 banka kodu IBAN=E2=80=99dan =C3=A7=C3=B6z=C3=BCl=C3=BCr.</li>
+ <li data-uuid=3D"85247299-3bef-4de6-bea7-a27caabfeff3">Al=C4=B1c=C4=B1 ban=
+ka kodu engelli banka listesinde ise hata verilir.</li>
+ <li data-uuid=3D"28587bf1-5e82-4131-b34b-6dd6f9ed178d">G=C3=B6nderen hesap=
+ tan=C4=B1m=C4=B1 bulunamazsa hata verilir.</li>
+ <li data-uuid=3D"726e1d54-a017-446b-8b3c-66fdf3e3f8cc">TL d=C4=B1=C5=9F=C4=
+=B1 d=C3=B6vizde kur bilgisi yoksa hata verilir.</li>
+ <li data-uuid=3D"527f1fa9-baca-4f9d-aee3-98280f396706">Al=C4=B1c=C4=B1 swi=
+ft kodu bo=C5=9Fsa parametreden bulunur; bulunamazsa hata verilir.</li>
+ <li data-uuid=3D"f77f7696-ca0b-41b4-bdaf-e5cfcf75a8f0">Al=C4=B1c=C4=B1 swi=
+ft kodundan =C3=A7=C4=B1kan =C3=BClke engelli =C3=BClkeler listesinde ise h=
+ata verilir.</li>
+ <li data-uuid=3D"f496e8ae-5693-41d0-947f-1020d81cf511">Bran=C5=9F + =C3=B6=
+deme kodu e=C5=9Fle=C5=9Fmesi bulunamazsa hata verilir (prepareDescriptionT=
+ext i=C3=A7inde).</li>
+</ul>
+<p>
+ <br>
+</p>
+<p><strong>=C3=96rnek</strong></p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+ <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1p=
+x;">
+  <b>Request</b>
+ </div>
+ <div class=3D"codeContent panelContent pdl">
+  <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"bru=
+sh: json; gutter: false">{
+  "branchCode": 4,
+  "descriptionText": "Ref:D2026101400002 - GMUH YURT DI=C5=9EI AVANS =C3=96=
+DEMES=C4=B0",
+  "paymentAmount": 1200,
+  "paymentCode": 5,
+  "receivingAccountNo": "",
+  "receivingBankCode": 67,
+  "receivingIban": "TR560006200139600009090751",
+  "receivingIdType": "T",
+  "receivingNameSurname": "ZAKIR EROL NURDA",
+  "receivingSubsidiaryCode": 0,
+  "receivingSwiftCode": "YAPITRIS",
+  "receivingTcknYknVkn": "76650842604",
+  "requestDate": "2026-10-14T00:00:00.000Z",
+  "sourceCode": "HEALTHEXCEPTPAY",
+  "swiftCode": "EUR",
+  "userId": "OPS26138"
+}</pre>
+ </div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+ <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1p=
+x;">
+  <b>Response</b>
+ </div>
+ <div class=3D"codeContent panelContent pdl">
+  <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"bru=
+sh: xml; gutter: false">{
+  "succeeded": true,
+  "status": 200,
+  "data": {
+    "paymentRefId": "D2026101400007",
+    "paymentDate": "2026-10-14",
+    "paymentOrderNum": 7,
+    "message": "=C3=96deme havuzuna ba=C5=9Far=C4=B1yla eklendi",
+    "status": "05"
+  }
+}</pre>
+ </div>
+</div>
+<h2 class=3D"auto-cursor-target" id=3D"id-=C3=96demeHavuzuKay=C4=B1tEkleme-=
+=C3=96demeHavuzuTopluKay=C4=B1tEkleme">=C3=96deme Havuzu Toplu Kay=C4=B1t E=
+kleme</h2>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+   <col>
+   <col>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Paremeter Name</th>
+    <th scope=3D"col" class=3D"confluenceTh">IN/OUT</th>
+    <th scope=3D"col" class=3D"confluenceTh">Type</th>
+    <th scope=3D"col" class=3D"confluenceTh">Validation</th>
+    <th scope=3D"col" class=3D"confluenceTh">Required</th>
+    <th scope=3D"col" class=3D"confluenceTh">Comments</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">allOrNothing</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Boolean</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Hay=C4=B1r</td>
+    <td class=3D"confluenceTd">Default: true. Toplu kay=C4=B1t eklemede all=
+OrNothing true ise t=C3=BCm kay=C4=B1tlar=C4=B1n hata almadan kay=C4=B1t ol=
+mas=C4=B1 beklenir, hata olursa hi=C3=A7bir kay=C4=B1t yaz=C4=B1lmaz. False=
+ olur ise ba=C5=9Far=C4=B1l=C4=B1 kay=C4=B1tlar yaz=C4=B1l=C4=B1r, ba=C5=9F=
+ar=C4=B1s=C4=B1z olanlar i=C3=A7in hata mesaj=C4=B1 d=C3=B6ner.</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">[ create i=C5=9Flemindeki di=C4=9Fer paramet=
+reler liste halinde ]</td>
+    <td class=3D"confluenceTd">IN</td>
+    <td class=3D"confluenceTd">Array</td>
+    <td class=3D"confluenceTd">
+     <br>
+    </td>
+    <td class=3D"confluenceTd">Evet</td>
+    <td class=3D"confluenceTd">Create i=C5=9Fleminde g=C3=B6nderilen parame=
+trelerle =C3=B6demeler listesi</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<p><strong>Servis eri=C5=9Fim bilgisi:</strong></p>
+<div class=3D"table-wrap">
+ <table class=3D"wrapped confluenceTable">
+  <colgroup>
+   <col>
+   <col>
+  </colgroup>
+  <tbody>
+   <tr>
+    <th scope=3D"col" class=3D"confluenceTh">Service</th>
+    <th scope=3D"col" class=3D"confluenceTh">Description</th>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">Method</td>
+    <td class=3D"confluenceTd">POST</td>
+   </tr>
+   <tr>
+    <td class=3D"confluenceTd">URL</td>
+    <td class=3D"confluenceTd">$API_URL/payment-pools/bulk</td>
+   </tr>
+  </tbody>
+ </table>
+</div>
+<p>
+ <br>
+</p>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+ <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1p=
+x;">
+  <b>request</b>
+ </div>
+ <div class=3D"codeContent panelContent pdl">
+  <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"bru=
+sh: json; gutter: false">{
+  "allOrNothing": true,
+  =09"payments": [
+    =09{
+  =09=09=09"branchCode": 4,
+  =09=09=09"descriptionText": "Ref:D2026101400002 - GMUH YURT DI=C5=9EI AVA=
+NS =C3=96DEMES=C4=B0",
+  =09=09=09"paymentAmount": 1200,
+  =09=09=09"paymentCode": 5,
+  =09=09=09"receivingIban": "TR560006200139600009090751",
+  =09=09=09"receivingIdType": "T",
+  =09=09=09"receivingNameSurname": "ZAKIR EROL NURDA",
+  =09=09=09"receivingSubsidiaryCode": 0,
+  =09=09=09"receivingSwiftCode": "YAPITRIS",
+  =09=09=09"receivingTcknYknVkn": "76650842604",
+  =09=09=09"requestDate": "2026-10-14T00:00:00.000Z",
+  =09=09=09"sourceCode": "HEALTHEXCEPTPAY",
+  =09=09=09"swiftCode": "EUR",
+  =09=09=09"userId": "OPS26138"
+=09=09},
+=09=09{
+  =09=09=09"branchCode": 4,
+  =09=09=09"descriptionText": "Ref:D2026101400002 - GMUH YURT DI=C5=9EI AVA=
+NS =C3=96DEMES=C4=B0",
+  =09=09=09"paymentAmount": 1200,
+  =09=09=09"paymentCode": 5,
+  =09=09=09"receivingIban": "TR560006200139600009090751",
+  =09=09=09"receivingIdType": "T",
+  =09=09=09"receivingNameSurname": "ZAKIR EROL NURDA",
+  =09=09=09"receivingSubsidiaryCode": 0,
+  =09=09=09"receivingSwiftCode": "YAPITRIS",
+  =09=09=09"receivingTcknYknVkn": "76650842604",
+  =09=09=09"requestDate": "2026-10-14T00:00:00.000Z",
+  =09=09=09"sourceCode": "HEALTHEXCEPTPAY",
+  =09=09=09"swiftCode": "EUR",
+  =09=09=09"userId": "OPS26138"
+=09=09},
+=09=09{
+  =09=09=09"branchCode": 4,
+  =09=09=09"descriptionText": "Ref:D2026101400002 - GMUH YURT DI=C5=9EI AVA=
+NS =C3=96DEMES=C4=B0",
+  =09=09=09"paymentAmount": 1200,
+  =09=09=09"paymentCode": 5,
+  =09=09=09"receivingIban": "TR560006200139600009090751",
+  =09=09=09"receivingIdType": "T",
+  =09=09=09"receivingNameSurname": "ZAKIR EROL NURDA",
+  =09=09=09"receivingSubsidiaryCode": 0,
+  =09=09=09"receivingSwiftCode": "YAPITRIS",
+  =09=09=09"receivingTcknYknVkn": "76650842604",
+  =09=09=09"requestDate": "2026-10-14T00:00:00.000Z",
+  =09=09=09"sourceCode": "HEALTHEXCEPTPAY",
+  =09=09=09"swiftCode": "EUR",
+  =09=09=09"userId": "OPS26138"
+=09=09}
+  ]
+}</pre>
+ </div>
+</div>
+<div class=3D"code panel pdl" style=3D"border-width: 1px;">
+ <div class=3D"codeHeader panelHeader pdl" style=3D"border-bottom-width: 1p=
+x;">
+  <b>response</b>
+ </div>
+ <div class=3D"codeContent panelContent pdl">
+  <pre class=3D"syntaxhighlighter-pre" data-syntaxhighlighter-params=3D"bru=
+sh: json; gutter: false">{
+  "succeeded": true,
+  "status": 200,
+  "data": {
+    "allOrNothing": true,
+    "totalCount": 3,
+    "successCount": 3,
+    "failureCount": 0,
+    "succeeded": [
+      {
+        "paymentRefId": "D2026101400022",
+        "paymentDate": "2026-10-14",
+        "paymentOrderNum": 22,
+        "message": "=C3=96deme havuzuna ba=C5=9Far=C4=B1yla eklendi",
+        "status": "05"
+      },
+      {
+        "paymentRefId": "D2026101400023",
+        "paymentDate": "2026-10-14",
+        "paymentOrderNum": 23,
+        "message": "=C3=96deme havuzuna ba=C5=9Far=C4=B1yla eklendi",
+        "status": "05"
+      },
+      {
+        "paymentRefId": "D2026101400024",
+        "paymentDate": "2026-10-14",
+        "paymentOrderNum": 24,
+        "message": "=C3=96deme havuzuna ba=C5=9Far=C4=B1yla eklendi",
+        "status": "05"
+      }
+    ],
+    "errors": []
+  }
+}</pre>
+ </div>
+</div>
+<p>
+ <br>
+</p>
+<p>
+ <br>
+</p>
+<p>
+ <br>
+</p>
+<p>
+ <br>
+</p>
+    </div>
+</body>
+</html>
+------=_Part_328_107664131.1793789085165--
