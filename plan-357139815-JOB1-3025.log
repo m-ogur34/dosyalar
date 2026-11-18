@@ -1,0 +1,193 @@
+simple	17-Nov-2026 20:03:24	Build Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3025 (DNDO-SCTEST-JOB1-3025) is being prepared for building on agent bamboora102.allianz-tr.local Live RA 009, bamboo version: 12.1.12
+simple	17-Nov-2026 20:03:24	Remote agent on host bamboora102.allianz-tr.local
+simple	17-Nov-2026 20:03:24	Build working directory is /obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1
+simple	17-Nov-2026 20:03:24	Executing build Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3025 (DNDO-SCTEST-JOB1-3025)
+simple	17-Nov-2026 20:03:24	Starting task 'Clean working directory task' of type 'com.atlassian.bamboo.plugins.bamboo-artifact-downloader-plugin:cleanWorkingDirectoryTask'
+simple	17-Nov-2026 20:03:24	Cleaning working directory '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1'
+simple	17-Nov-2026 20:03:24	Finished task 'Clean working directory task' with result: Success
+simple	17-Nov-2026 20:03:24	Starting task 'checkout dbexec' of type 'com.atlassian.bamboo.plugins.vcs:task.vcs.checkout'
+simple	17-Nov-2026 20:03:24	Build always requires a clean checkout
+simple	17-Nov-2026 20:03:24	Cleaning build directory '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1'
+simple	17-Nov-2026 20:03:24	Build always requires a clean checkout
+simple	17-Nov-2026 20:03:24	Cleaning build directory '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core'
+simple	17-Nov-2026 20:03:24	Checking out into /obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1
+simple	17-Nov-2026 20:03:24	Updating source code to revision: 80f76634df3a421b0fdde94cd4dc782f137d1dc8
+simple	17-Nov-2026 20:03:24	Fetching 'refs/heads/master' from 'ssh://git@sdlc.allianz.com.tr:7999/kgsdlc/devops_deployment_operations.git'.
+simple	17-Nov-2026 20:03:24	Warning: Permanently added '[127.0.0.1]:41557' (RSA) to the list of known hosts.
+simple	17-Nov-2026 20:03:24	Checking out revision 80f76634df3a421b0fdde94cd4dc782f137d1dc8.
+simple	17-Nov-2026 20:03:24	Creating local git repository in '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1/.git'.
+simple	17-Nov-2026 20:03:24	fatal: destination path '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1' already exists and is not an empty directory.
+error	17-Nov-2026 20:03:24	Checkout to revision 80f76634df3a421b0fdde94cd4dc782f137d1dc8 has failed.
+simple	17-Nov-2026 20:03:24	Warning: failed to checkout source code to directory '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1', trying to recover...
+simple	17-Nov-2026 20:03:24	Cleaned source directory '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1'...
+simple	17-Nov-2026 20:03:24	Checking out revision 80f76634df3a421b0fdde94cd4dc782f137d1dc8.
+simple	17-Nov-2026 20:03:24	Creating local git repository in '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1/.git'.
+simple	17-Nov-2026 20:03:24	Cloning into '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1'...
+simple	17-Nov-2026 20:03:24	done.
+simple	17-Nov-2026 20:03:24	Your branch is up to date with 'origin/master'.
+simple	17-Nov-2026 20:03:24	Already on 'master'
+simple	17-Nov-2026 20:03:24	Checkout completed, recover successful.
+simple	17-Nov-2026 20:03:24	Updated source code to revision: 80f76634df3a421b0fdde94cd4dc782f137d1dc8
+simple	17-Nov-2026 20:03:24	Checking out into /obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core
+simple	17-Nov-2026 20:03:24	Updating source code to revision: 99aa19a8ca51f37a910de6099ddac42aa4097965
+simple	17-Nov-2026 20:03:24	Fetching 'refs/heads/master' from 'ssh://git@sdlc.allianz.com.tr:7999/kgsdlc/devops_core.git'.
+simple	17-Nov-2026 20:03:24	Warning: Permanently added '[127.0.0.1]:41557' (RSA) to the list of known hosts.
+simple	17-Nov-2026 20:03:24	Checking out revision 99aa19a8ca51f37a910de6099ddac42aa4097965.
+simple	17-Nov-2026 20:03:24	Creating local git repository in '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core/.git'.
+simple	17-Nov-2026 20:03:24	Cloning into '/obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core'...
+simple	17-Nov-2026 20:03:24	done.
+simple	17-Nov-2026 20:03:24	Your branch is up to date with 'origin/master'.
+simple	17-Nov-2026 20:03:24	Already on 'master'
+simple	17-Nov-2026 20:03:24	Updated source code to revision: 99aa19a8ca51f37a910de6099ddac42aa4097965
+simple	17-Nov-2026 20:03:24	Finished task 'checkout dbexec' with result: Success
+simple	17-Nov-2026 20:03:24	Running pre-build action: Build Log Labeller Pre Build Action
+simple	17-Nov-2026 20:03:24	Running pre-build action: VCS Version Collector
+simple	17-Nov-2026 20:03:24	Build Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3025 (DNDO-SCTEST-JOB1-3025) started building on agent 'bamboora102.allianz-tr.local Live RA 009' (Remote agent on host bamboora102.allianz-tr.local)
+command	17-Nov-2026 20:03:24	Substituting variable: ${bamboo.deploy.issue} with SBMD-143
+command	17-Nov-2026 20:03:24	Substituting variable: ${bamboo.deploy.rollback} with False
+command	17-Nov-2026 20:03:24	Substituting variable: ${bamboo.deploy.issue} with SBMD-143
+command	17-Nov-2026 20:03:24	Substituting variable: ${bamboo.deploy.rollback} with False
+simple	17-Nov-2026 20:03:24	Starting task 'run dbexec_sqlexecutor.py' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	17-Nov-2026 20:03:24	Beginning to execute external process for build 'Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3025 (DNDO-SCTEST-JOB1-3025)'\n ... running command line: \n/bin/sh /obss/remoteAgentDir/live-009/temp/DNDO-SCTEST-JOB1-3025-ScriptBuildTask-679359143986663310.sh\n ... in: /obss/remoteAgentDir/live-009/xml-data/build-dir/DNDO-SCTEST-JOB1\n
+build	17-Nov-2026 20:03:24	####################################################################
+build	17-Nov-2026 20:03:24	transition_issues.py altindaki classlar alindi
+build	17-Nov-2026 20:03:24	####################################################################
+build	17-Nov-2026 20:03:24	env:  DEVTEST
+build	17-Nov-2026 20:03:24	database:  OPUS
+build	17-Nov-2026 20:03:24	task:  SBMD-143
+build	17-Nov-2026 20:03:24	rollback:  False
+build	17-Nov-2026 20:03:24	len args :  9
+build	17-Nov-2026 20:03:24	arg 0 start_deploy.py
+build	17-Nov-2026 20:03:24	arg 1 -e
+build	17-Nov-2026 20:03:24	arg 2 DEVTEST
+build	17-Nov-2026 20:03:24	arg 3 -d
+build	17-Nov-2026 20:03:24	 Deployment Class rollback_status :  False
+build	17-Nov-2026 20:03:24	--- __init__ Oraclient ---
+build	17-Nov-2026 20:03:24	self.con:  <cx_Oracle.Connection to ********@opustest-scan.allianz-tr.local:1521/OPSSCTST>
+build	17-Nov-2026 20:03:24	Starting Deployment
+build	17-Nov-2026 20:03:24	Downloading Files...
+build	17-Nov-2026 20:03:24	uri:  https://atlas.allianz.com.tr/jira/rest/api/2/issue/SBMD-143
+build	17-Nov-2026 20:03:25	getTasks function rollback True
+build	17-Nov-2026 20:03:25	--- __getAttachments ---
+build	17-Nov-2026 20:03:25	__downloadFile function 
+build	17-Nov-2026 20:03:25	issueKey:  SBMD-143
+build	17-Nov-2026 20:03:25	parent_issue:  SBMD-143
+build	17-Nov-2026 20:03:25	self.fileName:  rollback-SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:25	parent:  SBMD-130
+build	17-Nov-2026 20:03:25	--------------
+build	17-Nov-2026 20:03:25	changed_file_name: SBMD-143_rollback-SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:25	rollback_status False
+build	17-Nov-2026 20:03:25	str(self.issueKey)+'_'+str(self.parent_issue):  SBMD-143_SBMD-130
+build	17-Nov-2026 20:03:25	uzantısı sql değil...
+build	17-Nov-2026 20:03:25	attachment['id']:  1804569
+build	17-Nov-2026 20:03:25	attachment['content']:  https://atlas.allianz.com.tr/jira/secure/attachment/1804569/rollback-SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:25	__getAttachments in self.issueKey:  SBMD-143
+build	17-Nov-2026 20:03:25	__getAttachments in self.parent_issue:  SBMD-143
+build	17-Nov-2026 20:03:25	_getAttachments in self.rollback_status:  False
+build	17-Nov-2026 20:03:25	attachment['filename']:  rollback-SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:25	__downloadFile function 
+build	17-Nov-2026 20:03:25	issueKey:  SBMD-143
+build	17-Nov-2026 20:03:25	parent_issue:  SBMD-143
+build	17-Nov-2026 20:03:25	self.fileName:  SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:25	parent:  SBMD-130
+build	17-Nov-2026 20:03:25	--------------
+build	17-Nov-2026 20:03:25	changed_file_name: SBMD-143_SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:25	rollback_status False
+build	17-Nov-2026 20:03:25	str(self.issueKey)+'_'+str(self.parent_issue):  SBMD-143_SBMD-130
+build	17-Nov-2026 20:03:25	uygun formatta sql uzantılı dosya bulundu...
+build	17-Nov-2026 20:03:25	changed_file_name :  SBMD-143_SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:25	changed_file_name.find == -1
+build	17-Nov-2026 20:03:25	chunk_read_encode fundtion
+build	17-Nov-2026 20:03:25	Downloaded 8192 of 9354 bytes (87.58%)
+build	17-Nov-2026 20:03:25	Downloaded 9354 of 9354 bytes (100.00%)
+build	17-Nov-2026 20:03:25	
+build	17-Nov-2026 20:03:25	
+error	17-Nov-2026 20:03:25	Vim: Warning: Output is not to a terminal
+error	17-Nov-2026 20:03:25	Vim: Warning: Input is not from a terminal
+build	17-Nov-2026 20:03:27	[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"~/kodgemisi/deploydbexec/scripts/SBMD-143_SBMD-130-deployment.sql"
+build	17-Nov-2026 20:03:27	</deploydbexec/scripts/SBMD-143_SBMD-130-deployment.sql" 153L, 9354C[?2004l
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	"~/kodgemisi/deploydbexec/scripts/SBMD-143_SBMD-130-deployment.sql"
+build	17-Nov-2026 20:03:27	<bexec/scripts/SBMD-143_SBMD-130-deployment.sql" 153L, 9354C written
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	[?2004l[?1l>[?25h[?1049l[23;0;0t{'confidence': 0.99, 'language': '', 'encoding': 'utf-8'}
+build	17-Nov-2026 20:03:27	{'confidence': 0.99, 'language': '', 'encoding': 'utf-8'}
+build	17-Nov-2026 20:03:27	{'confidence': 0.99, 'language': '', 'encoding': 'utf-8'}
+build	17-Nov-2026 20:03:27	{'confidence': 0.99, 'language': '', 'encoding': 'utf-8'}
+build	17-Nov-2026 20:03:27	/home/bamboo/kodgemisi/deploydbexec/scripts/SBMD-143_SBMD-130-deployment.sql : UTF-8
+build	17-Nov-2026 20:03:27	'charmap' codec can't encode character u'\u2019' in position 646: character maps to <undefined>
+build	17-Nov-2026 20:03:27	attachment['id']:  1804568
+build	17-Nov-2026 20:03:27	attachment['content']:  https://atlas.allianz.com.tr/jira/secure/attachment/1804568/SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:27	__getAttachments in self.issueKey:  SBMD-143
+build	17-Nov-2026 20:03:27	__getAttachments in self.parent_issue:  SBMD-143
+build	17-Nov-2026 20:03:27	_getAttachments in self.rollback_status:  False
+build	17-Nov-2026 20:03:27	attachment['filename']:  SBMD-130-deployment.sql
+build	17-Nov-2026 20:03:27	Finished creating script
+build	17-Nov-2026 20:03:27	Deploying Script
+build	17-Nov-2026 20:03:27	Command : ./sqlexecutor.sh -s /home/bamboo/kodgemisi/deploydbexec/deploymentscript_SBMD-143.sql -d DEVTEST_OPUS -u ******** -p ******** -f LOG_DOSYASI_ISSUE_NUMARANIZI_ICINDE_ARATIN_SBMD-143_2026-11-17_20-03-27.out
+build	17-Nov-2026 20:03:27	LOG_DOSYASI_ISSUE_NUMARANIZI_ICINDE_ARATIN_SBMD-143_2026-11-17_20-03-27.out
+build	17-Nov-2026 20:03:27	### SQLPLUS SESSION BEGINS ###gitdeploy_prep##
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	SQL*Plus: Release 12.1.0.1.0 Production on Tue Nov 17 20:03:27 2026
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	Last Successful login time: Tue Nov 17 2026 20:03:24 +03:00
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	Connected to:
+build	17-Nov-2026 20:03:27	Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	Session altered.
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	Deployment start
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	DATE_TIME
+build	17-Nov-2026 20:03:27	---------------------------------------------------------------------------
+build	17-Nov-2026 20:03:27	17/11/2026 20:03:27
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	Elapsed: 00:00:00.02
+build	17-Nov-2026 20:03:27	Deployment finished
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	DATE_TIME
+build	17-Nov-2026 20:03:27	---------------------------------------------------------------------------
+build	17-Nov-2026 20:03:27	17/11/2026 20:03:27
+build	17-Nov-2026 20:03:27	
+build	17-Nov-2026 20:03:27	Elapsed: 00:00:00.02
+build	17-Nov-2026 20:03:27	Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+build	17-Nov-2026 20:03:27	Success
+build	17-Nov-2026 20:03:27	deploy_script returnCode:  0
+build	17-Nov-2026 20:03:27	Recompile and Invalid objects...
+build	17-Nov-2026 20:03:27	out.loop_lines_V2():  caught_err:  False
+build	17-Nov-2026 20:03:27	loop_lines_V2 False donecek..
+build	17-Nov-2026 20:03:27	False
+build	17-Nov-2026 20:03:27	caught_err:  False
+build	17-Nov-2026 20:03:27	loop_lines_V2 False donecek..
+build	17-Nov-2026 20:03:27	issue done a cekiliyor
+build	17-Nov-2026 20:03:27	deployment_resutl:  True
+build	17-Nov-2026 20:03:27	Deployment Done
+build	17-Nov-2026 20:03:27	Stopping Deployment...
+build	17-Nov-2026 20:03:27	Stopped Deployment...
+build	17-Nov-2026 20:03:27	--- close Oraclient ---
+build	17-Nov-2026 20:03:27	database attachment deployment succsess
+simple	17-Nov-2026 20:03:27	Finished task 'run dbexec_sqlexecutor.py' with result: Success
+simple	17-Nov-2026 20:03:27	Running post build plugin 'Docker Container Cleanup'
+simple	17-Nov-2026 20:03:27	Running post build plugin 'NCover Results Collector'
+simple	17-Nov-2026 20:03:27	Running post build plugin 'Build Results Label Collector'
+simple	17-Nov-2026 20:03:27	Running post build plugin 'Clover Results Collector'
+simple	17-Nov-2026 20:03:27	Running post build plugin 'npm Cache Cleanup'
+simple	17-Nov-2026 20:03:27	Running post build plugin 'Artifact Copier'
+simple	17-Nov-2026 20:03:27	Finalising the build...
+simple	17-Nov-2026 20:03:27	Stopping timer.
+simple	17-Nov-2026 20:03:27	Build DNDO-SCTEST-JOB1-3025 completed.
+simple	17-Nov-2026 20:03:27	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	17-Nov-2026 20:03:27	Running on server: post build plugin 'Bamboo project link creator'
+simple	17-Nov-2026 20:03:27	Running on server: post build plugin 'NCover Results Collector'
+simple	17-Nov-2026 20:03:27	Running on server: post build plugin 'Build Labeller'
+simple	17-Nov-2026 20:03:27	Running on server: post build plugin 'Clover Delta Calculator'
+simple	17-Nov-2026 20:03:27	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	17-Nov-2026 20:03:27	All post build plugins have finished
+simple	17-Nov-2026 20:03:27	Generating build results summary...
+simple	17-Nov-2026 20:03:28	Saving build results to disk...
+simple	17-Nov-2026 20:03:28	Store variable context...
+simple	17-Nov-2026 20:03:28	Finished building DNDO-SCTEST-JOB1-3025.
