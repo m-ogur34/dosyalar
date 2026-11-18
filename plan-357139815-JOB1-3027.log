@@ -1,0 +1,462 @@
+simple	18-Nov-2026 08:03:28	Build Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3027 (DNDO-SCTEST-JOB1-3027) is being prepared for building on agent bamboora102.allianz-tr.local Live RA 011, bamboo version: 12.1.12
+simple	18-Nov-2026 08:03:28	Remote agent on host bamboora102.allianz-tr.local
+simple	18-Nov-2026 08:03:28	Build working directory is /obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1
+simple	18-Nov-2026 08:03:28	Executing build Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3027 (DNDO-SCTEST-JOB1-3027)
+simple	18-Nov-2026 08:03:28	Starting task 'Clean working directory task' of type 'com.atlassian.bamboo.plugins.bamboo-artifact-downloader-plugin:cleanWorkingDirectoryTask'
+simple	18-Nov-2026 08:03:28	Cleaning working directory '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1'
+simple	18-Nov-2026 08:03:28	Finished task 'Clean working directory task' with result: Success
+simple	18-Nov-2026 08:03:28	Starting task 'checkout dbexec' of type 'com.atlassian.bamboo.plugins.vcs:task.vcs.checkout'
+simple	18-Nov-2026 08:03:28	Build always requires a clean checkout
+simple	18-Nov-2026 08:03:28	Cleaning build directory '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1'
+simple	18-Nov-2026 08:03:28	Build always requires a clean checkout
+simple	18-Nov-2026 08:03:28	Cleaning build directory '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core'
+simple	18-Nov-2026 08:03:28	Checking out into /obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1
+simple	18-Nov-2026 08:03:28	Updating source code to revision: 80f76634df3a421b0fdde94cd4dc782f137d1dc8
+simple	18-Nov-2026 08:03:28	Fetching 'refs/heads/master' from 'ssh://git@sdlc.allianz.com.tr:7999/kgsdlc/devops_deployment_operations.git'.
+simple	18-Nov-2026 08:03:28	Warning: Permanently added '[127.0.0.1]:46253' (RSA) to the list of known hosts.
+simple	18-Nov-2026 08:03:28	Checking out revision 80f76634df3a421b0fdde94cd4dc782f137d1dc8.
+simple	18-Nov-2026 08:03:28	Creating local git repository in '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1/.git'.
+simple	18-Nov-2026 08:03:28	fatal: destination path '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1' already exists and is not an empty directory.
+error	18-Nov-2026 08:03:28	Checkout to revision 80f76634df3a421b0fdde94cd4dc782f137d1dc8 has failed.
+simple	18-Nov-2026 08:03:28	Warning: failed to checkout source code to directory '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1', trying to recover...
+simple	18-Nov-2026 08:03:28	Cleaned source directory '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1'...
+simple	18-Nov-2026 08:03:28	Checking out revision 80f76634df3a421b0fdde94cd4dc782f137d1dc8.
+simple	18-Nov-2026 08:03:28	Creating local git repository in '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1/.git'.
+simple	18-Nov-2026 08:03:28	Cloning into '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1'...
+simple	18-Nov-2026 08:03:28	done.
+simple	18-Nov-2026 08:03:28	Your branch is up to date with 'origin/master'.
+simple	18-Nov-2026 08:03:28	Already on 'master'
+simple	18-Nov-2026 08:03:28	Checkout completed, recover successful.
+simple	18-Nov-2026 08:03:28	Updated source code to revision: 80f76634df3a421b0fdde94cd4dc782f137d1dc8
+simple	18-Nov-2026 08:03:28	Checking out into /obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core
+simple	18-Nov-2026 08:03:28	Updating source code to revision: 99aa19a8ca51f37a910de6099ddac42aa4097965
+simple	18-Nov-2026 08:03:28	Fetching 'refs/heads/master' from 'ssh://git@sdlc.allianz.com.tr:7999/kgsdlc/devops_core.git'.
+simple	18-Nov-2026 08:03:28	Warning: Permanently added '[127.0.0.1]:46253' (RSA) to the list of known hosts.
+simple	18-Nov-2026 08:03:28	Checking out revision 99aa19a8ca51f37a910de6099ddac42aa4097965.
+simple	18-Nov-2026 08:03:28	Creating local git repository in '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core/.git'.
+simple	18-Nov-2026 08:03:28	Cloning into '/obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1/database_deployment/devops_core'...
+simple	18-Nov-2026 08:03:28	done.
+simple	18-Nov-2026 08:03:28	Already on 'master'
+simple	18-Nov-2026 08:03:28	Your branch is up to date with 'origin/master'.
+simple	18-Nov-2026 08:03:28	Updated source code to revision: 99aa19a8ca51f37a910de6099ddac42aa4097965
+simple	18-Nov-2026 08:03:28	Finished task 'checkout dbexec' with result: Success
+simple	18-Nov-2026 08:03:28	Running pre-build action: Build Log Labeller Pre Build Action
+simple	18-Nov-2026 08:03:28	Running pre-build action: VCS Version Collector
+simple	18-Nov-2026 08:03:28	Build Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3027 (DNDO-SCTEST-JOB1-3027) started building on agent 'bamboora102.allianz-tr.local Live RA 011' (Remote agent on host bamboora102.allianz-tr.local)
+command	18-Nov-2026 08:03:28	Substituting variable: ${bamboo.deploy.issue} with SBMD-144
+command	18-Nov-2026 08:03:28	Substituting variable: ${bamboo.deploy.rollback} with False
+command	18-Nov-2026 08:03:28	Substituting variable: ${bamboo.deploy.issue} with SBMD-144
+command	18-Nov-2026 08:03:28	Substituting variable: ${bamboo.deploy.rollback} with False
+simple	18-Nov-2026 08:03:28	Starting task 'run dbexec_sqlexecutor.py' of type 'com.atlassian.bamboo.plugins.scripttask:task.builder.script'
+command	18-Nov-2026 08:03:28	Beginning to execute external process for build 'Devops New Deployment Operations - SC-TEST Database DDL-DML Deploy - Default Job #3027 (DNDO-SCTEST-JOB1-3027)'\n ... running command line: \n/bin/sh /obss/remoteAgentDir/live-011/temp/DNDO-SCTEST-JOB1-3027-ScriptBuildTask-1381934730890998730.sh\n ... in: /obss/remoteAgentDir/live-011/xml-data/build-dir/DNDO-SCTEST-JOB1\n
+build	18-Nov-2026 08:03:28	####################################################################
+build	18-Nov-2026 08:03:28	transition_issues.py altindaki classlar alindi
+build	18-Nov-2026 08:03:28	####################################################################
+build	18-Nov-2026 08:03:28	env:  DEVTEST
+build	18-Nov-2026 08:03:28	database:  OPUS
+build	18-Nov-2026 08:03:28	task:  SBMD-144
+build	18-Nov-2026 08:03:28	rollback:  False
+build	18-Nov-2026 08:03:28	len args :  9
+build	18-Nov-2026 08:03:28	arg 0 start_deploy.py
+build	18-Nov-2026 08:03:28	arg 1 -e
+build	18-Nov-2026 08:03:28	arg 2 DEVTEST
+build	18-Nov-2026 08:03:28	arg 3 -d
+build	18-Nov-2026 08:03:28	 Deployment Class rollback_status :  False
+build	18-Nov-2026 08:03:28	--- __init__ Oraclient ---
+build	18-Nov-2026 08:03:29	self.con:  <cx_Oracle.Connection to ********@opustest-scan.allianz-tr.local:1521/OPSSCTST>
+build	18-Nov-2026 08:03:29	Starting Deployment
+build	18-Nov-2026 08:03:29	Downloading Files...
+build	18-Nov-2026 08:03:29	uri:  https://atlas.allianz.com.tr/jira/rest/api/2/issue/SBMD-144
+build	18-Nov-2026 08:03:29	getTasks function rollback True
+build	18-Nov-2026 08:03:29	--- __getAttachments ---
+build	18-Nov-2026 08:03:29	__downloadFile function 
+build	18-Nov-2026 08:03:29	issueKey:  SBMD-144
+build	18-Nov-2026 08:03:29	parent_issue:  SBMD-144
+build	18-Nov-2026 08:03:29	self.fileName:  rollback-SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:29	parent:  SBMD-130
+build	18-Nov-2026 08:03:29	--------------
+build	18-Nov-2026 08:03:29	changed_file_name: SBMD-144_rollback-SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:29	rollback_status False
+build	18-Nov-2026 08:03:29	str(self.issueKey)+'_'+str(self.parent_issue):  SBMD-144_SBMD-130
+build	18-Nov-2026 08:03:29	uzantısı sql değil...
+build	18-Nov-2026 08:03:29	attachment['id']:  1804645
+build	18-Nov-2026 08:03:29	attachment['content']:  https://atlas.allianz.com.tr/jira/secure/attachment/1804645/rollback-SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:29	__getAttachments in self.issueKey:  SBMD-144
+build	18-Nov-2026 08:03:29	__getAttachments in self.parent_issue:  SBMD-144
+build	18-Nov-2026 08:03:29	_getAttachments in self.rollback_status:  False
+build	18-Nov-2026 08:03:29	attachment['filename']:  rollback-SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:29	__downloadFile function 
+build	18-Nov-2026 08:03:29	issueKey:  SBMD-144
+build	18-Nov-2026 08:03:29	parent_issue:  SBMD-144
+build	18-Nov-2026 08:03:29	self.fileName:  SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:29	parent:  SBMD-130
+build	18-Nov-2026 08:03:29	--------------
+build	18-Nov-2026 08:03:29	changed_file_name: SBMD-144_SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:29	rollback_status False
+build	18-Nov-2026 08:03:29	str(self.issueKey)+'_'+str(self.parent_issue):  SBMD-144_SBMD-130
+build	18-Nov-2026 08:03:29	uygun formatta sql uzantılı dosya bulundu...
+build	18-Nov-2026 08:03:29	changed_file_name :  SBMD-144_SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:29	changed_file_name.find == -1
+build	18-Nov-2026 08:03:29	chunk_read_encode fundtion
+build	18-Nov-2026 08:03:29	Downloaded 8192 of 9318 bytes (87.92%)
+build	18-Nov-2026 08:03:29	Downloaded 9318 of 9318 bytes (100.00%)
+build	18-Nov-2026 08:03:29	
+build	18-Nov-2026 08:03:29	
+error	18-Nov-2026 08:03:29	Vim: Warning: Output is not to a terminal
+error	18-Nov-2026 08:03:29	Vim: Warning: Input is not from a terminal
+build	18-Nov-2026 08:03:31	[?2004h[?1049h[22;0;0t[?1h=[?2004h[1;24r[?12h[?12l[27m[23m[29m[m[H[2J[?25l[24;1H"~/kodgemisi/deploydbexec/scripts/SBMD-144_SBMD-130-deployment.sql"
+build	18-Nov-2026 08:03:31	</deploydbexec/scripts/SBMD-144_SBMD-130-deployment.sql" 151L, 9318C[?2004l
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	"~/kodgemisi/deploydbexec/scripts/SBMD-144_SBMD-130-deployment.sql"
+build	18-Nov-2026 08:03:31	<bexec/scripts/SBMD-144_SBMD-130-deployment.sql" 151L, 9318C written
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	[?2004l[?1l>[?25h[?1049l[23;0;0t{'confidence': 1.0, 'language': '', 'encoding': 'ascii'}
+build	18-Nov-2026 08:03:31	{'confidence': 1.0, 'language': '', 'encoding': 'ascii'}
+build	18-Nov-2026 08:03:31	{'confidence': 1.0, 'language': '', 'encoding': 'ascii'}
+build	18-Nov-2026 08:03:31	{'confidence': 1.0, 'language': '', 'encoding': 'ascii'}
+build	18-Nov-2026 08:03:31	/home/bamboo/kodgemisi/deploydbexec/scripts/SBMD-144_SBMD-130-deployment.sql : ASCII
+build	18-Nov-2026 08:03:31	chunk_read fundtion
+build	18-Nov-2026 08:03:31	attachment['id']:  1804644
+build	18-Nov-2026 08:03:31	attachment['content']:  https://atlas.allianz.com.tr/jira/secure/attachment/1804644/SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:31	__getAttachments in self.issueKey:  SBMD-144
+build	18-Nov-2026 08:03:31	__getAttachments in self.parent_issue:  SBMD-144
+build	18-Nov-2026 08:03:31	_getAttachments in self.rollback_status:  False
+build	18-Nov-2026 08:03:31	attachment['filename']:  SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:31	Finished creating script
+build	18-Nov-2026 08:03:31	Deploying Script
+build	18-Nov-2026 08:03:31	Command : ./sqlexecutor.sh -s /home/bamboo/kodgemisi/deploydbexec/deploymentscript_SBMD-144.sql -d DEVTEST_OPUS -u ******** -p ******** -f LOG_DOSYASI_ISSUE_NUMARANIZI_ICINDE_ARATIN_SBMD-144_2026-11-18_08-03-31.out
+build	18-Nov-2026 08:03:31	LOG_DOSYASI_ISSUE_NUMARANIZI_ICINDE_ARATIN_SBMD-144_2026-11-18_08-03-31.out
+build	18-Nov-2026 08:03:31	### SQLPLUS SESSION BEGINS ###gitdeploy_prep##
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	SQL*Plus: Release 12.1.0.1.0 Production on Wed Nov 18 08:03:31 2026
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Copyright (c) 1982, 2013, Oracle.  All rights reserved.
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Last Successful login time: Wed Nov 18 2026 08:03:29 +03:00
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Connected to:
+build	18-Nov-2026 08:03:31	Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Session altered.
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Deployment start
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	DATE_TIME
+build	18-Nov-2026 08:03:31	---------------------------------------------------------------------------
+build	18-Nov-2026 08:03:31	18/11/2026 08:03:31
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Elapsed: 00:00:00.03
+build	18-Nov-2026 08:03:31	SBMD-144_SBMD-130-deployment.sql
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Table altered.
+build	18-Nov-2026 08:03:31	
+build	18-Nov-2026 08:03:31	Elapsed: 00:00:00.04
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Sequence created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.03
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Table created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.04
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Sequence created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Table created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Sequence created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Table created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.03
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Sequence created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Table created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.03
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Comment created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Synonym created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.03
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Synonym created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Synonym created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Synonym created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Synonym created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Synonym created.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Grant succeeded.
+build	18-Nov-2026 08:03:32	
+build	18-Nov-2026 08:03:32	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Grant succeeded.
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Synonym created.
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Synonym created.
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Grant succeeded.
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Grant succeeded.
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Elapsed: 00:00:00.02
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Grant succeeded.
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Elapsed: 00:00:00.01
+build	18-Nov-2026 08:03:33	Deployment finished
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	DATE_TIME
+build	18-Nov-2026 08:03:33	---------------------------------------------------------------------------
+build	18-Nov-2026 08:03:33	18/11/2026 08:03:33
+build	18-Nov-2026 08:03:33	
+build	18-Nov-2026 08:03:33	Elapsed: 00:00:00.03
+build	18-Nov-2026 08:03:33	Disconnected from Oracle Database 19c Enterprise Edition Release 19.0.0.0.0 - Production
+build	18-Nov-2026 08:03:33	Success
+build	18-Nov-2026 08:03:33	deploy_script returnCode:  0
+build	18-Nov-2026 08:03:33	Recompile and Invalid objects...
+build	18-Nov-2026 08:03:33	out.loop_lines_V2():  caught_err:  False
+build	18-Nov-2026 08:03:33	loop_lines_V2 False donecek..
+build	18-Nov-2026 08:03:33	False
+build	18-Nov-2026 08:03:33	caught_err:  False
+build	18-Nov-2026 08:03:33	loop_lines_V2 False donecek..
+build	18-Nov-2026 08:03:33	issue done a cekiliyor
+build	18-Nov-2026 08:03:33	deployment_resutl:  True
+build	18-Nov-2026 08:03:33	Deployment Done
+build	18-Nov-2026 08:03:33	Stopping Deployment...
+build	18-Nov-2026 08:03:33	Stopped Deployment...
+build	18-Nov-2026 08:03:33	--- close Oraclient ---
+build	18-Nov-2026 08:03:33	database attachment deployment succsess
+simple	18-Nov-2026 08:03:33	Finished task 'run dbexec_sqlexecutor.py' with result: Success
+simple	18-Nov-2026 08:03:33	Running post build plugin 'Docker Container Cleanup'
+simple	18-Nov-2026 08:03:33	Running post build plugin 'NCover Results Collector'
+simple	18-Nov-2026 08:03:33	Running post build plugin 'Build Results Label Collector'
+simple	18-Nov-2026 08:03:33	Running post build plugin 'Clover Results Collector'
+simple	18-Nov-2026 08:03:33	Running post build plugin 'npm Cache Cleanup'
+simple	18-Nov-2026 08:03:33	Running post build plugin 'Artifact Copier'
+simple	18-Nov-2026 08:03:33	Finalising the build...
+simple	18-Nov-2026 08:03:33	Stopping timer.
+simple	18-Nov-2026 08:03:33	Build DNDO-SCTEST-JOB1-3027 completed.
+simple	18-Nov-2026 08:03:33	Running on server: post build plugin 'Build Hanging Detection Configuration'
+simple	18-Nov-2026 08:03:33	Running on server: post build plugin 'Bamboo project link creator'
+simple	18-Nov-2026 08:03:33	Running on server: post build plugin 'NCover Results Collector'
+simple	18-Nov-2026 08:03:33	Running on server: post build plugin 'Build Labeller'
+simple	18-Nov-2026 08:03:33	Running on server: post build plugin 'Clover Delta Calculator'
+simple	18-Nov-2026 08:03:33	Running on server: post build plugin 'Maven Dependencies Postprocessor'
+simple	18-Nov-2026 08:03:33	All post build plugins have finished
+simple	18-Nov-2026 08:03:33	Generating build results summary...
+simple	18-Nov-2026 08:03:33	Saving build results to disk...
+simple	18-Nov-2026 08:03:33	Store variable context...
+simple	18-Nov-2026 08:03:33	Finished building DNDO-SCTEST-JOB1-3027.
